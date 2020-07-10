@@ -1,0 +1,13 @@
+name: Test
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  my_first_job:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Get Request'
+        run: bash ./get.sh
