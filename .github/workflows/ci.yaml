@@ -17,4 +17,4 @@ jobs:
       - name: Install Dependencies
         run: |
            npm install
-           node ./get.js
+           node ./get.js 
