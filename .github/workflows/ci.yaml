@@ -13,4 +13,4 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
-         bash ./get.sh
+         node ./get.js
