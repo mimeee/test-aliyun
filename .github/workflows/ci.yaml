@@ -13,4 +13,5 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
+         npm install
          node ./get.js
