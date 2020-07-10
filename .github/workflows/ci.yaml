@@ -6,8 +6,6 @@ jobs:
     name: My Job
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
 
       - name: Install Node
         uses: actions/setup-node@v1
